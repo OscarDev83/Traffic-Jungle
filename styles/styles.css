@@ -1,0 +1,107 @@
+/* .color1 {#caff42};
+
+.color2 {#ebf7f8};
+
+.color3 {#d0e0eb};
+
+.color5 {#49708a}; */
+
+
+
+
+h1 {
+    font-family: 'Bakso Sapi', sans-serif;
+    font-size: 5em;
+    text-align: center;
+    color: #caff42;
+    flex-wrap: wrap;
+    text-shadow: 1px 1px 2px black
+}
+
+h2 {
+    font-family: 'Bakso Sapi', sans-serif;
+    font-size: 5em;
+    text-align: center;
+    color: #caff42;
+    flex-wrap: wrap;
+    text-shadow: 1px 1px 2px black
+}
+
+h3 {
+    font-family: 'Bakso Sapi', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: #caff42;
+    text-shadow: 1px 1px 2px black
+}
+
+h4 {
+    font-family: 'Bakso Sapi', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: #caff42;
+    text-shadow: 1px 1px 2px black
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/fondo-sin.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#startButton,
+#restartButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-color: rgb(13, 250, 123);
+    color: #49708a;
+    height: 80px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.73);
+    font-size: 40px;
+    border-radius: 10px 25px;
+}
+
+
+
+#gameBoard {
+    display: none;
+    overflow: hidden;
+    position: relative;
+
+}
+
+#paragraph {
+    display: none;
+    position: relative;
+}
+
+
+#restart-button {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#game-end {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
